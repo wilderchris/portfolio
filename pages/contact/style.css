@@ -207,7 +207,7 @@ body {
 }
 
 .layer.one {
-	background: #3498db;
+	background: #e67e22;
 }
 
 .layer.two {
@@ -222,7 +222,7 @@ body {
 }
 
 .bullets {
-	position:absolute;
+	position: absolute;
 	width: 100%;
 	bottom: 20px;
 	padding: 0;
@@ -370,8 +370,8 @@ p {
 
 span {
     color: #187260;
-	
 }
+
 button
 {
 	position: center;

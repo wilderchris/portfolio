@@ -198,6 +198,6 @@ document.addEventListener( 'keyup', function( event ) {
 function redirect(url){
     setTimeout(4000);
     let aTag = $('<a href="#"></a>');
-    aTag.attr('href','http://'+ url);
+    aTag.attr('href','https://'+ url);
     aTag[0].click();
 }

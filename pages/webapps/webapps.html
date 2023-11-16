@@ -2,13 +2,67 @@
 <html>
   <head>
     <meta charset="UTF-8">
-    <title>Page Title</title>
+    <title>Web Apps</title>
+    <link rel="stylesheet" href="style.css">
+
   </head>
+  <h1>Web Apps!</h1>
 
-  <body>
+  <nav>
+      <a href="../home/home.html">Home</a>
+      <a href="https://codinginterface.com/">Blog</a>
+      <a href="../Games/games.html">Games</a>
+      <a href="../webapps/webapps.html">Web Apps</a>
+      <a href="../contact/contact.html">Contact</a>
+      <div class="animation start-home"></div>
+  </nav>
 
-  <a href="http://nrcharters.christopherwwilder.com">N and R Boat Charters</a>
 
-    <h1>Hello, world!</h1>
-  </body>
+
+  <article class="slider">
+      <div class="layer one show">
+
+          <h2>Nuese River Charters </h2>
+
+<p> This is a site for a Boat Charter company that is<br/>
+ located in Oriental, North Carolina <br/>
+ it uses an email form that I wrote in javascript to send through mail*** service<br/>
+  it has been deployed in a simple AWS S3 bucket and uses some stock photos for location<br/>
+ and uses some photos of their boats and personal photos will be updating soon with some more<br/>
+personalized images when the company starts taking charters, they are working on a start date at the moment<br/>
+
+  <button class="button" onclick="redirect('nrcharters.christopherwwilder.com')">Check me Out! </button>
+
+  </p>
+      </div>
+      <div class="layer three">
+          <h2>Spoiler Room</h2>
+
+          <p> This is one of the 1st full ap s I created in a team<br/>
+              it has a front end that uses Angular 13 and backend is Java with Spring<br/>
+              It was a full usable app with an api call to TMDB's api and then stored<br/>
+            the retrieved movie information in a database and then displayed it to the user<br/>
+            I am working on a full rewrite with new animations in the frontend<br/>
+            and a simpler DB and backend for the movie data. deployed with .... TBD<br/>
+              deployed with .... TBD<br/>
+              <button class="button" onclick="redirect('spoilerroom.christopherwwilder.com')">Check me Out! </button>
+
+          </p>
+      </div>
+     
+  </article>
+  
+  <ul class="bullets"></ul>
+
+
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="script.js"></script>
+
+
+
+<!-- <p>
+    <span> &copy; 2023  Chris Wilder  </span>
+</p> -->
+
 </html>
