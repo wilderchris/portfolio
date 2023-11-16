@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <link rel="stylesheet" href="style.css">
+
+  <title>Christopher W. Wilder</title>
+
+
+
+
+</head>
+
+<div class="main">
+  <h3>Hello  I'm Chris : <div class="roller">
+      <span id="rolltext">I'm a <br />
+        Full Stack <br />
+        Software <br />
+        Developer<br />
+        <span id="spare-time">I would like to show you around!</span><br />
+    </div>
+  </h3>
+  <button class="button" onclick="redirect('./home.html')">Check me Out! </button>
+
+</div>
+
+
+
+
+
+
+<body>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+<script>
+ 
+
+
+function redirect()
+{    let aTag = $('<a href="#"></a>');
+    aTag.attr('href', '../pages/home/home.html');
+    aTag[0].click();
+}
+</script>
+
+  
+</body>
+
+</html>
